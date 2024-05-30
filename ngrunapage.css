@@ -10,7 +10,8 @@ header {
     background-image: url(imagens/background.jpg);
     background-size: cover;
     background-position: center;
-    padding-bottom: 15; /* Adjust as needed */
+    padding-bottom: 15;
+    /* Adjust as needed */
 }
 
 .header_content {
@@ -28,7 +29,8 @@ nav {
 nav a {
     margin: 0 10px;
     text-decoration: none;
-    color: rgb(22, 168, 178); /* Color for the links */
+    color: rgb(22, 168, 178);
+    /* Color for the links */
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     cursor: pointer;
 }
@@ -38,22 +40,24 @@ nav a {
     padding-bottom: 30px;
 }
 
-.creator > h2 {
+.creator>h2 {
     text-align: center;
     opacity: 50%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 60px;
     font-weight: 100;
     letter-spacing: 10px;
-    color: rgb(118, 118, 118); /* Color for the text */
+    color: rgb(118, 118, 118);
+    /* Color for the text */
 }
 
-.creator > p {
+.creator>p {
     text-align: center;
     padding-left: 30px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
-    color: rgb(22, 168, 178); /* Color for the text */
+    color: rgb(22, 168, 178);
+    /* Color for the text */
 }
 
 /* Styles for the dishes */
@@ -76,18 +80,21 @@ nav a {
 
 .paragraph_one h2 {
     margin-bottom: 20px;
-    color: #565450; /* Color for the title */
+    color: #565450;
+    /* Color for the title */
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .paragraph_one p {
     margin-bottom: 20px;
-    color: #666464; /* Color for the text */
+    color: #666464;
+    /* Color for the text */
 }
 
 .paragraph_one a {
     margin-right: 0;
-    color: #5B9E33; /* Color for the link */
+    color: #5B9E33;
+    /* Color for the link */
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
@@ -102,23 +109,78 @@ nav a {
 .photosmenu1 h2,
 .photosmenu2 h2 {
     margin-bottom: 20px;
-    color: grey; /* Color for the title */
+    color: grey;
+    /* Color for the title */
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.photosmenu1 p,
-.photosmenu2 p {
+.photosmenu1 p {
     color: rgb(22, 168, 178);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.photosmenu1 .food img,
-.photosmenu2 .drink img {
+.photosmenu1 .food img {
     max-width: 100%;
-    max-height: 300px; /* Limit the height of the images */
+    max-height: 300px;
+    /* Limit the height of the images */
     border-radius: 10px;
-    border: 2px solid #ddd; /* Adding border */
+    border: 2px solid #ddd;
+    /* Adding border */
     margin-bottom: 20px;
+}
+
+
+.reserva h1 {
+    text-align: CENTER;
+    color: #439ca6;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 10px;
+
+}
+
+.reserva form {
+    color: rgb(52, 62, 62);
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-image: url(https://media.istockphoto.com/id/1277063263/es/vector/fondo-borroso-azul-abstracto.jpg?s=612x612&w=0&k=20&c=iyXipcvytCRIbRslJsYJARI4ICxdkNMZGFFBd2bIpgA=);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.reserva label {
+    display: block;
+    margin-bottom: 8px;
+    opacity: 80%;
+
+
+
+}
+
+.reserva input {
+    border: none;
+    border-radius: 7px;
+}
+
+.reserva p {
+    margin-top: 10px;
+    font-size: 12px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #ffffff;
+}
+
+.reserva button {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    padding: 15px;
+    color: #439ca6;
+    margin-top: 20px;
 }
 
 /* Styles for the large text two */
@@ -126,22 +188,24 @@ nav a {
     padding-bottom: 30px;
 }
 
-.start > h2 {
+.start>h2 {
     text-align: center;
     opacity: 50%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 60px;
     font-weight: 100;
     letter-spacing: 10px;
-    color: grey; /* Color for the text */
+    color: grey;
+    /* Color for the text */
 }
 
-.start > p {
+.start>p {
     text-align: center;
     padding-left: 30px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
-    color: rgb(22, 168, 178); /* Color for the text */
+    color: rgb(22, 168, 178);
+    /* Color for the text */
 }
 
 /* Styles for the customer service section */
@@ -158,27 +222,31 @@ nav a {
 .reservation h2 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 25px;
-    color: #fff; /* Color for the title */
+    color: #fff;
+    /* Color for the title */
     margin-bottom: 10px;
 }
 
 .reservation p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    color: #fff; /* Color for the text */
+    color: #fff;
+    /* Color for the text */
     margin-bottom: 20px;
 }
 
 .reservation button {
     font-size: 15px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: #c82222; /* Color for the button text */
+    color: #c82222;
+    /* Color for the button text */
     padding: 10px;
     border-radius: 10px;
     border: none;
     cursor: pointer;
     margin-bottom: 10px;
-    background-color: #fff; /* Background color for the button */
+    background-color: #fff;
+    /* Background color for the button */
 }
 
 .restaurant_clip video {
@@ -200,7 +268,8 @@ footer p {
 }
 
 footer a {
-    color: #48A8B2; /* Color for the links */
+    color: #48A8B2;
+    /* Color for the links */
     text-decoration: none;
     border-right: solid rgb(195, 193, 193);
     padding-right: 10px;
